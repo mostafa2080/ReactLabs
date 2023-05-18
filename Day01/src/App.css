@@ -1,0 +1,182 @@
+/* App.css */
+
+/* Reset styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero-section {
+  background-image: url('./Images/hero2.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-subtitle {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.hero-section .hero-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* About section styles */
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-section .row {
+  margin-bottom: 40px;
+}
+
+.about-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+}
+
+.about-section .resume-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.about-section .resume-link:hover {
+  background-color: #0056b3;
+}
+
+/* Skills section styles */
+
+.skills-section {
+  background-image: url('./Images/hero2.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* ... remaining styles ... */
+
+.skills-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.skills-section p {
+  margin-bottom: 20px;
+}
+
+/* Portfolio section styles */
+
+.portfolio-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.portfolio-section p {
+  margin-bottom: 20px;
+}
+
+/* Footer section styles */
+.footer-section {
+  background-image: url('./Images/hero2.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+
+.footer-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer-section .social-icons {
+  margin-top: 20px;
+}
+
+.footer-section .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #007bff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #0056b3;
+}
+
+/* App.css */
+
+.contact-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+

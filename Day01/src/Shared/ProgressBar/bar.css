@@ -1,0 +1,20 @@
+.progress-bar {
+  margin-bottom: 10px;
+}
+
+.progress-bar__label {
+  font-weight: bold;
+}
+
+.progress-bar__bar {
+  background-color: #f1f1f1;
+  height: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar__fill {
+  background-color: #007bff;
+  height: 100%;
+  transition: width 0.3s;
+}
