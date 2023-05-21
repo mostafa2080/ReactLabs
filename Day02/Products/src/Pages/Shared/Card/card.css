@@ -1,0 +1,17 @@
+.product{
+    width: 25%;
+    height: 400px;
+    border: solid 2px #eee;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product img{
+    width: 35%;
+    height: 150px;
+    border: solid 2px #eee;
+    border-radius: 50%;
+}

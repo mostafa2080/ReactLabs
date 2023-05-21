@@ -1,0 +1,16 @@
+.landing-page{
+    background: url("../../images/back.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.landing-page h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
